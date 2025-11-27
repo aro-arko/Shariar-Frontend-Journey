@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Internal CSS</title>
+    <style>
+      /* h2 {
+        background-color: #e6cdad;
+        width: 50%;
+      } */
+
+      #captain1 {
+        color: blue;
+        text-align: center;
+        text-decoration: line-through;
+      }
+
+      #captain2 {
+        color: blue;
+        text-align: center;
+        text-decoration: underline;
+      }
+      .player {
+        color: rgb(255, 23, 23);
+        text-align: right;
+        background-color: yellow;
+      }
+      * {
+        /* background-color: rgb(173, 173, 173); */
+      }
+
+      h1,
+      p {
+        color: aqua;
+        border: 1px dotted black;
+      }
+
+      input[type="text"] {
+        background-color: yellow;
+      }
+
+      #username {
+        border: 2px solid blue;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Exploring Internal CSS</h1>
+    <h2>CSS is easy pizzy</h2>
+    <h2>CSS is easy pizzy</h2>
+    <h2 class="player">CSS is easy common style</h2>
+    <h2>CSS is easy ...</h2>
+    <h2 class="player">CSS is easy pizzy</h2>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <p>Lorem ipsum dolor sit amet.</p>
+    <h2 id="captain1">Different vibes with internal css</h2>
+    <h2 id="captain2" class="player">Captain 2 + Player</h2>
+    <h2
+      style="
+        /* class */
+        color: rgb(255, 23, 23);
+        text-align: right;
+        background-color: yellow;
+
+        /* id */
+        color: blue;
+        text-align: center;
+        text-decoration: underline;
+      "
+    >
+      Captain 2 + Player
+    </h2>
+
+    <input type="text" name="" id="username" />
+    <input type="" name="" id="" />
+  </body>
+</html>
