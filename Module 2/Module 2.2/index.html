@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+      .paragraphDesign {
+        font-weight: 600;
+        color: red;
+        /* background-color: lightblue; */
+      }
+
+      #paragraphContainer {
+        background-color: yellow;
+      }
+      .user-info,
+      .terms-info {
+        border-top: 2px solid green;
+        border-left: 2px solid blueviolet;
+        border-bottom: 2px solid aqua;
+        border-right: 2px solid gray;
+        /* border-radius: 2px; */
+        border-top-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-bottom-left-radius: 20px;
+      }
+
+      .terms-paragraph {
+        width: 100px;
+      }
+
+      .button_style {
+        background-color: rgb(39, 172, 255);
+        color: white;
+        border: none;
+        font-size: 14px;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <h1>CSS Selectors</h1>
+
+      <!-- <div> -->
+      <div id="paragraphContainer">
+        <p class="paragraphDesign">
+          This is <span style="color: green">paragraph 1</span>
+        </p>
+        <!-- user information -->
+        <div class="user-info">
+          <p class="paragraphDesign">This is paragraph 2</p>
+          <p class="paragraphDesign">This is paragraph 3</p>
+          <p class="paragraphDesign">This is paragraph 4</p>
+        </div>
+        <!-- terms and condition -->
+        <div class="terms-info terms-paragraph">
+          <p class="paragraphDesign">This is paragraph 5</p>
+          <p class="paragraphDesign">This is paragraph 6</p>
+        </div>
+      </div>
+
+      <button class="button_style">Button</button>
+      <!-- 
+        <div style="background-color: violet">
+          <p class="paragraphDesign">
+            This is <span style="color: green">paragraph 1</span>
+          </p>
+          <div>
+            <p class="paragraphDesign">This is paragraph 2</p>
+            <p class="paragraphDesign">This is paragraph 3</p>
+          </div>
+          <p class="paragraphDesign">This is paragraph 4</p>
+          <p class="paragraphDesign">This is paragraph 5</p>
+          <p class="paragraphDesign">This is paragraph 6</p>
+        </div> -->
+      <!-- </div> -->
+    </section>
+  </body>
+</html>
