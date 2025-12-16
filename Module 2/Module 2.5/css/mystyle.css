@@ -1,0 +1,38 @@
+      .blog {
+          border-radius: 10px;
+          background-color: aquamarine;
+          text-align: justify;
+          margin: 5px 10px 15px 20px;
+          height: 200px;
+          padding: 10px;
+      }
+
+      .special_blog {
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          color: blue;
+      }
+
+      /* new topic */
+      .offer {
+          /* display: none; */
+          /* visibility: hidden; */
+          background-color: lightblue;
+          padding: 10px;
+          margin: 20px;
+          box-shadow: 0px 0px 50px lightgray;
+          /* x-axis, y-axis,   */
+      }
+
+      h2,
+      span,
+      a {
+          font-size: 30px;
+          text-decoration: overline;
+          font-family: 'Courier New', Courier, monospace;
+          background-color: slategray;
+      }
+
+      span,
+      a {
+          display: block;
+      }
