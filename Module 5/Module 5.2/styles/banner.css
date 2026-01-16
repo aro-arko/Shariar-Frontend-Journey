@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Work Sans", sans-serif */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+#hero {
+    background: linear-gradient(0.00deg, rgba(9.2, 8.93, 8.93, 1), rgba(16, 16, 16, 0) 100%), url('../assets/hero-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    height: 919px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero .hero-content {
+    width: 1023px;
+    height: 391px;
+    color: rgba(255, 255, 255, 1);
+}
+
+#hero .hero-content .hero-subtitle {
+    color: rgba(255, 255, 255, 1);
+    font-style: SemiBold;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+#hero .hero-content .hero-title {
+    color: rgba(255, 255, 255, 1);
+    font-style: Bold;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 16px;
+}
+
+#hero .hero-content .hero-description {
+    color: rgba(255, 255, 255, 1);
+    opacity: 0.7;
+    font-style: Medium;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 24px
+}
+
+#hero .hero-content .hero-button {
+    width: 282px;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10;
+    padding: 21px 30px 21px 30px;
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 1);
+    color: rgba(255, 255, 255, 1);
+    font-style: SemiBold;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+
+#about {
+    display: flex;
+    align-items: center;
+}
